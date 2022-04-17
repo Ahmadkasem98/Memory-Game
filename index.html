@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+  
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+
+        <div id="timer">
+         00:
+        </div>
+     
+        <div class="tries">
+            Wrong Tries : <span></span>
+        </div>
+    </div>
+
+    <div class="memory-game-blocks">
+        <div class="game-block" data-technology="team1">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-01.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="team1">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-01.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="team2">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-02.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="team2">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-02.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="team3">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-03.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="team3">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-03.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="team4">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-04.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="team4">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-04.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="team5">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-05.png" width="200" height="200" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="team5">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-05.png" width="200" height="200" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="team6">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-06.png" width="200" height="200" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="team6">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-06.png" width="200" height="200" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="team7">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-07.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="team7">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-07.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="team8">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-08.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="team8">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-08.jpg" width="200" height="200" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="team9">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-09.png" width="200" height="200" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="team9">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-09.png" width="200" height="200" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="team10">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-10.png" width="200" height="200" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="team10">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/team-10.png" width="200" height="200" alt="">
+            </div>
+        </div>
+    </div>
+
+    <audio id="success" src="audio/success.wav" preload="auto"></audio>
+    <audio id="lose" src="audio/lose.wav" preload="auto"></audio>
+    <audio id="start" src="audio/start.wav" preload="auto"></audio>
+    <audio id="end" src="audio/End.wav" preload="auto"></audio>
+
+
+
+    <script src="js/main.js"></script>
+  </body>
